@@ -26,7 +26,7 @@ steps:
     backendServiceArm: 'azure-resource-manager-conn'
     ensureBackend: true
     backendAzureRmResourceGroupName: 'terraform-backend-rg'
-    backendAzureRmResourceGroupLocation: 'westeurope'
+    backendAzureRmResourceGroupLocation: 'eastus2'
     backendAzureRmStorageAccountName: 'storageacctbillzzzotmap'
     backendAzureRmContainerName: 'storageacctbillcontainer'
     backendAzureRmKey: 'kubernetes-dev.tfstate'
